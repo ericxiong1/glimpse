@@ -1,0 +1,84 @@
+context:
+  expressions:
+    changeWidget:
+      - (@politeUtterance ) (@start) (@prepositions ) $widgetName:widget
+    dnd:
+      - (@politeUtterance ) (turn) [do not disturb, d n d] $boolean:state
+    setting:
+      - (@politeUtterance) (set) $settingName:setting (@prepositions)
+        $settingLevel:settingLevel
+      - (@politeUtterance) (set) $settingName:setting (@prepositions)
+        $pv.TwoDigitInteger:level
+      - (@politeUtterance) (set) $settingName:setting (@prepositions)
+        $pv.Percent:level
+    hud:
+      - (@politeUtterance) (hud) $exit:state
+      - (@politeUtterance) (turn) (hud) $boolean:state
+  slots:
+    widgetName:
+      - Barcode
+      - Barcodes
+      - Scan
+      - Scanner
+      - Barcode Scanner
+      - Chat
+      - Gemini
+      - A I
+      - Compass
+      - Heading
+      - Bearing
+      - Face
+      - face recognition
+      - recognition
+      - Facial Recognition
+      - Navigate
+      - Navigation
+      - Nav
+      - maps
+      - Directions
+      - Weather
+      - Settings
+      - Gear
+    boolean:
+      - off
+      - on
+    settingName:
+      - brightness
+      - volume
+    settingLevel:
+      - one hundred
+      - minimum
+      - min
+      - maximum
+      - max
+    exit:
+      - done
+      - end
+      - exit
+  macros:
+    start:
+      - go
+      - display
+      - execute
+      - run
+      - commence
+      - trigger
+      - enable
+      - activate
+      - open
+      - begin
+      - launch
+      - switch
+      - swap
+      - start
+      - change
+    politeUtterance:
+      - if you could
+      - could you
+      - can you
+      - would you mind
+      - kindly
+      - please
+    prepositions:
+      - at
+      - to

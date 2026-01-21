@@ -1,0 +1,84 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:4018435076163984389",
+      "lastPropertyId": "7:2197981978122865270",
+      "name": "Face",
+      "properties": [
+        {
+          "id": "1:2396462496299864614",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "4:1519001856688235356",
+          "name": "faceEmbedding",
+          "indexId": "2:7742165915621550914",
+          "type": 28,
+          "flags": 8
+        },
+        {
+          "id": "5:7792518595259249837",
+          "name": "personId",
+          "indexId": "3:1561285837290443890",
+          "type": 11,
+          "flags": 520,
+          "relationTarget": "Person"
+        },
+        {
+          "id": "7:2197981978122865270",
+          "name": "photoPath",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:7422898862789395724",
+      "lastPropertyId": "4:296639383794845813",
+      "name": "Person",
+      "properties": [
+        {
+          "id": "1:4470362774030358231",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1216846919493288604",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:9149745193889870846",
+          "name": "information",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:7422898862789395724",
+  "lastIndexId": "4:101288916571988434",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [
+    3274168114641610340,
+    101288916571988434
+  ],
+  "retiredPropertyUids": [
+    7825303230939443525,
+    296639383794845813,
+    8563728539786013548,
+    1659722008907089737
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}
