@@ -1,5 +1,8 @@
 # Glimpse User Guide
-
+# **Authors**
+Shane Kunjachen
+Lukas Bonkowski
+Eric Xiong
 ## **System Requirements**
 
 Glimpse can be run on any Android device, running Android 13 or greater, that has access to a camera, microphone, and the device’s location. 
